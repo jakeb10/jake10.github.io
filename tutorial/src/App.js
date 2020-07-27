@@ -1,12 +1,10 @@
-import React from 'react';
-import logo from './mintbean.png';
-import './styles/index.css';
-
+import React from 'react'
+import './styles/index.css'
 
 import CameraFeed from './components/CameraFeed'
 import MintNav from './components/MintNav'
 
-function App() {
+const App = () => {
 
   return (
     <>
@@ -19,4 +17,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
